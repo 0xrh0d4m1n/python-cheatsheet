@@ -1,9 +1,8 @@
 <script setup lang="ts">
 const { theToc, currentSection } = useToc();
-const { reload, reloadOn } = useCarbon();
+const { reload } = useCarbon();
 
 const route = useRoute();
-reloadOn(900000);
 
 const pageToc = computed(() => {
   if (route.name === "changelog") {
