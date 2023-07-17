@@ -19,6 +19,11 @@ export const useNavigationStore = defineStore('navigation', {
         name: 'Contributing',
         path: '/contributing',
       },
+      {
+        name: 'Changelog',
+        path: '/changelog',
+        updated: true,
+      },
     ],
     cheatsheetNavigation: [
       {
@@ -140,6 +145,11 @@ export const useNavigationStore = defineStore('navigation', {
     ],
     standardLibraryNavigation: [
       {
+        name: 'Copy',
+        path: '/modules/copy-module',
+        updated: true,
+      },
+      {
         name: 'Datetime',
         path: '/modules/datetime-module',
       },
@@ -152,16 +162,16 @@ export const useNavigationStore = defineStore('navigation', {
         path: '/modules/json-module',
       },
       {
-        name: 'Random',
-        path: '/modules/random-module',
-      },
-      {
         name: 'Os',
         path: '/modules/os-module',
       },
       {
         name: 'Pathlib',
         path: '/modules/pathlib-module',
+      },
+      {
+        name: 'Random',
+        path: '/modules/random-module',
       },
       {
         name: 'Shelve',
