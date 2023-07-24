@@ -83,6 +83,7 @@ const response = computed(() => newsletter.getResponse)
         </p>
         <form class="relative mt-6" @submit.prevent="subscribe">
           <input
+            v-model="email"
             type="email"
             placeholder="Email address"
             autocomplete="email"
@@ -139,7 +140,7 @@ const response = computed(() => newsletter.getResponse)
           </p>
         </template>
 
-        <template v-else-if="response?.success == false">
+        <template v-else-if="response?.errors">
           <p
             class="mt-2 mx-2 text-sm font-medium text-sky-700 dark:text-sky-500"
           >
