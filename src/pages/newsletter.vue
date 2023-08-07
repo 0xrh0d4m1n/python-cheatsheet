@@ -76,7 +76,7 @@ const response = computed(() => newsletter.getResponse)
         <p class="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-400">
           Join
           <span class="text-sky-600 dark:text-sky-500"
-            >7.000+ Python developers</span
+            >7.200+ Python developers</span
           >
           in a weekly and bullshit free publication, full of interesting,
           relevant links.
@@ -154,12 +154,12 @@ const response = computed(() => newsletter.getResponse)
           >
             Sponsor
           </router-link>
-          <a
+          <!-- <a
             href="https://news.pythoncheatsheet.org/"
             class="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-50"
           >
             Latest Issue <span aria-hidden="true">→</span>
-          </a>
+          </a> -->
         </div>
       </div>
       <div

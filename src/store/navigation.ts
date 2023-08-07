@@ -143,7 +143,7 @@ export const useNavigationStore = defineStore('navigation', {
       {
         name: 'Copy',
         path: '/modules/copy-module',
-        updated: true,
+        updated: false,
       },
       {
         name: 'Datetime',
