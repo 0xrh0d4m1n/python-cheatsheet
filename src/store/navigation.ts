@@ -29,12 +29,12 @@ export const useNavigationStore = defineStore('navigation', {
       {
         name: 'Built-in functions',
         path: '/cheatsheet/built-in-functions',
-        updated: false,
+        updated: true,
       },
       {
         name: 'Control flow',
         path: '/cheatsheet/control-flow',
-        updated: true,
+        updated: false,
       },
       {
         name: 'Functions',
@@ -95,7 +95,7 @@ export const useNavigationStore = defineStore('navigation', {
       {
         name: 'Exception handling',
         path: '/cheatsheet/exception-handling',
-        updated: true,
+        updated: false,
       },
       {
         name: 'Debugging',
@@ -106,6 +106,11 @@ export const useNavigationStore = defineStore('navigation', {
         name: 'Args and Kwargs',
         path: '/cheatsheet/args-and-kwargs',
         updated: false,
+      },
+      {
+        name: 'Decorators',
+        path: '/cheatsheet/decorators',
+        updated: true,
       },
       {
         name: 'Context manager',
