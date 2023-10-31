@@ -2,7 +2,7 @@
 const navigation = useNavigationStore()
 const route = useRoute()
 
-const timeAgo = useTimeAgo(new Date(2023, 9, 27, 14, 0))
+const timeAgo = useTimeAgo(new Date(2023, 9, 30, 21, 0))
 </script>
 
 <template>
@@ -31,7 +31,7 @@ const timeAgo = useTimeAgo(new Date(2023, 9, 27, 14, 0))
           <algolia-doc-search />
 
           <router-link
-            to="/changelog#2023-10-13"
+            to="/changelog#2023-10-30"
             rel="noreferrer"
             class="hidden xl:flex"
           >
