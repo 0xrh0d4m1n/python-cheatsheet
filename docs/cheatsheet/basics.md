@@ -56,13 +56,15 @@ Examples of expressions:
 
 ## Augmented Assignment Operators
 
-| Operator   | Equivalent      |
-| ---------- | --------------- |
-| `var += 1` | `var = var + 1` |
-| `var -= 1` | `var = var - 1` |
-| `var *= 1` | `var = var * 1` |
-| `var /= 1` | `var = var / 1` |
-| `var %= 1` | `var = var % 1` |
+| Operator    | Equivalent       |
+| ----------- | ---------------- |
+| `var += 1`  | `var = var + 1`  |
+| `var -= 1`  | `var = var - 1`  |
+| `var *= 1`  | `var = var * 1`  |
+| `var /= 1`  | `var = var / 1`  |
+| `var //= 1` | `var = var // 1` |
+| `var %= 1`  | `var = var % 1`  |
+| `var **= 1` | `var = var ** 1` |
 
 Examples:
 
